@@ -13,6 +13,6 @@ const setTimer = function() {
   } else {
     clearInterval(timerID);
     alert('Вы победили в конкурсе!');}
-  }
+}
 
 const timerID = setInterval(setTimer, 1000);
