@@ -12,8 +12,7 @@ const setTimer = function() {
     timer.textContent = formatTime.toLocaleTimeString('ru');
   } else {
     clearInterval(timerID);
-    alert('Вы победили в конкурсе!');
-}
-}
+    alert('Вы победили в конкурсе!');}
+  }
 
 const timerID = setInterval(setTimer, 1000);
